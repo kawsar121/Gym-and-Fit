@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Search, Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
-
+import logo from "../assets/Untitled3.png";
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,7 +16,7 @@ const Nav = () => {
         <div className="flex items-center gap-4 lg:gap-10">
           <Link to="/">
             <img
-              src="/src/assets/Untitled3.png"
+              src={logo}
               alt="Logo"
               className="w-10 lg:w-14"
             />
