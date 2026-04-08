@@ -9,7 +9,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 w-full h-full z-0"
         style={{
-          backgroundImage: "url('/src/assets/Untitled4.png')",
+          backgroundImage: "url('https://drive.google.com/file/d/1fq4yVK1LEvt0c3wKp_ILOJz-i0MLsv1g/view?usp=sharing')",
           backgroundSize: "100% 100%",
           backgroundPosition: "center",
         }}
@@ -17,7 +17,7 @@ const Hero = () => {
 
       <div className="absolute inset-0 z-10 pointer-events-none flex justify-center items-center lg:items-end overflow-hidden">
         <img
-          src="/src/assets/fighter.png"
+          src="https://drive.google.com/file/d/1RczAUexyaJrEpxzBMznyH3eID3BxGnbh/view?usp=sharing"
           alt="Fighters"
           data-aos="zoom-in-up"
           data-aos-duration="1500"

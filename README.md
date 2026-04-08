@@ -1,7 +1,7 @@
 # 🚀 Frontend Auth Project
 
 ## 📌 Live Demo
-🔗 https://your-project-name.vercel.app
+🔗 gym-and-fit.netlify.app
 
 ## 📌 GitHub Repository
 🔗 https://github.com/kawsar121/Gym-and-Fit
