@@ -1,7 +1,7 @@
 # 🚀 Frontend Auth Project
 
 ## 📌 Live Demo
-🔗 gym-and-fit.netlify.app
+🔗 https://gym-and-fit.netlify.app/
 
 ## 📌 GitHub Repository
 🔗 https://github.com/kawsar121/Gym-and-Fit
