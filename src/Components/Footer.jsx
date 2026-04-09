@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="max-w-7xl mx-auto px-6 pb-10 pt-16">
+    <footer className="max-w-7xl mx-auto px-6 pb-10 pt-10 md:pt-16">
         <hr className="text-gray-600 mb-20"/>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
         {/* About */}
-        <div className="space-y-6">
+        <div className="space-y-5">
           <h3 className="text-xl font-bold text-black">About</h3>
           <p className="text-black text-sm leading-relaxed">
             At MuscleForge, we believe in the power of dedication and hard work.
@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
 
         {/* Quick Links */}
-        <div className="space-y-6">
+        <div className="space-y-5">
           <h3 className="text-xl font-bold text-black">Quick Links</h3>
           <ul className="space-y-3 text-black text-sm">
             <li className="hover:text-[#5FB539] cursor-pointer transition">
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
 
         {/* Our Service */}
-        <div className="space-y-6">
+        <div className="space-y-5">
           <h3 className="text-xl font-bold text-black">Our Service</h3>
           <ul className="space-y-3 text-black text-sm">
             <li className="hover:text-[#5FB539] cursor-pointer transition">
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
 
         {/* Contact Info */}
-        <div className="space-y-6">
+        <div className="space-y-5">
           <h3 className="text-xl font-bold text-black">Contact Info</h3>
           <ul className="space-y-4 text-black text-sm">
             <li>
@@ -83,7 +83,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="mt-5 md:mt-20  pt-8  border-gray-100 ">
-        <hr className="mx-96 text-gray-600 mb-5"/>
+        <hr className="w-full max-w-100 md:max-w-xl mx-auto border-gray-300 mb-5"/>
         <p className="text-center text-black text-xs">websitename.com©2026 all right reserve</p>
       </div>
     </footer>

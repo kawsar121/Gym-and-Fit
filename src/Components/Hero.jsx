@@ -90,7 +90,7 @@ const Hero = () => {
           </div>
 
           {/* Bottom Action Area */}
-          <div className="flex flex-col sm:flex-row gap-4 items-center justify-center mb-10 mt-10 lg:mt-20">
+          <div className="flex sm:flex-row gap-4 items-center justify-center mb-10 mt-10 lg:mt-20">
             <button className="w-full sm:w-auto flex items-center justify-center gap-3 border border-white px-8 lg:px-12 py-3 rounded-full text-white hover:bg-white hover:text-black transition uppercase text-xs lg:text-sm font-bold tracking-widest group">
               Shop Now{" "}
               <ArrowRightIcon
@@ -100,7 +100,7 @@ const Hero = () => {
             </button>
             <button className="bg-white p-3 rounded-xl hover:bg-lime-500 transition group border border-white shadow-[0_0_15px_rgba(255,255,255,0.2)]">
               <MapPinIcon
-                size={24}
+                size={20}
                 className="text-black group-hover:text-white"
               />
             </button>
