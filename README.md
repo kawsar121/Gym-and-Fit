@@ -26,6 +26,13 @@ It includes authentication features like registration, OTP verification, and log
 
 ---
 
+⚠️ OTP Note
+
+The OTP is not sent via email in this testing environment.
+After registration, the OTP can be found in the browser's developer tools (Network/Console tab) as part of the API response.
+
+Please use that OTP to complete the verification process.
+
 ## 🛠️ Technologies Used
 
 - React (Vite)
