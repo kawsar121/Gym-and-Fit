@@ -22,7 +22,7 @@ const Nav = () => {
             />
           </Link>
 
-          <div className="hidden lg:flex items-center gap-6 border border-white bg-black/20 backdrop-blur-md rounded-full px-6 py-3">
+          <div className="hidden lg:flex items-center font-satoshi gap-6 border border-white bg-black/20 backdrop-blur-md rounded-full px-6 py-3">
             <Link
               to="/"
               className="text-white text-sm hover:text-lime-500 transition"
@@ -49,7 +49,7 @@ const Nav = () => {
         <div className="flex items-center gap-4">
           <Link
             to="/register"
-            className="hidden lg:block bg-lime-500 px-16 py-4 rounded-full text-white font-bold text-sm shadow-lg hover:bg-lime-600 hover:scale-105 transition-all"
+            className="hidden font-tilt lg:block bg-lime-500 px-16 py-4 rounded-full text-white font-bold text-sm shadow-lg hover:bg-lime-600 hover:scale-105 transition-all"
           >
             REGI
           </Link>

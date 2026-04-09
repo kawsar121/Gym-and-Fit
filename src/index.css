@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@1,2&display=swap');
+
+@theme {
+  /* Font Family Definition */
+  --font-satoshi: "Satoshi", sans-serif;
+  --font-tilt: "Tilt Warp", sans-serif;
+}
+
+
+:root {
+  font-family: var(--font-satoshi);
+}

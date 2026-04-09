@@ -1,15 +1,14 @@
 import React from "react";
 import cards from "../data/cards.json";
-import Card from "./Card";
 const ProductCard = () => {
   return (
     <div className="p-6 rounded-2xl max-w-7xl mx-auto">
       <div className="ml-10 mt-5">
-        <h1 className="text-3xl md:text-4xl font-bold text-black/75">
+        <h1 className="text-3xl md:text-4xl font-bold text-black/75 font-satoshi">
           Our Products
         </h1>
       
-      <p className="font-medium text-lg md:text-2xl mt-3">
+      <p className="font-medium text-lg md:text-2xl mt-3 font-satoshi">
         Fuel Your Workouts with Protein-Packed Nutrition
       </p>
       </div>
@@ -27,7 +26,7 @@ const ProductCard = () => {
                 </div>
 
                 <div className="mt-5 px-2">
-                  <h2 className="text-white text-lg font-light leading-tight line-clamp-2 h-12">
+                  <h2 className="text-white font-satoshis text-lg font-light leading-tight line-clamp-2 h-12">
                     {item.title}
                   </h2>
                 </div>
@@ -36,7 +35,7 @@ const ProductCard = () => {
               <div className="px-2 pb-4">
                 <div className="flex justify-between items-center">
                   <div>
-                    <p className="text-white text-2xl font-semibold">₹399.00</p>
+                    <p className="text-white text-2xl font-semibold font-tilt">₹399.00</p>
                     <div className="flex gap-1 mt-1">
                       <span className="text-green-500 text-sm">★</span>
                       <span className="text-green-500 text-sm">★</span>

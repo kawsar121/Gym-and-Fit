@@ -79,7 +79,7 @@ const Hero = () => {
             <h1 className="text-white text-[45px] sm:text-[70px] lg:text-[110px] font-black italic uppercase leading-[0.8] opacity-10 absolute -top-2 lg:-top-5 text-center w-full">
               POWER YOUR <br /> PONTETIALE
             </h1>
-            <h1 className="text-white text-[45px] sm:text-[70px] lg:text-[110px] font-black italic uppercase leading-[0.8] relative z-20 text-center">
+            <h1 className="text-white font-tilt text-[45px] sm:text-[70px] lg:text-[110px] font-black italic uppercase leading-[0.8] relative z-20 text-center">
               POWER YOUR <br />
               <span
                 style={{ WebkitTextStroke: "1px white", color: "transparent" }}
@@ -91,7 +91,7 @@ const Hero = () => {
 
           {/* Bottom Action Area */}
           <div className="flex sm:flex-row gap-4 items-center justify-center mb-10 mt-10 lg:mt-20">
-            <button className="w-full sm:w-auto flex items-center justify-center gap-3 border border-white px-8 lg:px-12 py-3 rounded-full text-white hover:bg-white hover:text-black transition uppercase text-xs lg:text-sm font-bold tracking-widest group">
+            <button className="w-full font-satoshi sm:w-auto flex items-center justify-center gap-3 border border-white px-8 lg:px-12 py-3 rounded-full text-white hover:bg-white hover:text-black transition uppercase text-xs lg:text-sm font-bold tracking-widest group">
               Shop Now{" "}
               <ArrowRightIcon
                 size={18}

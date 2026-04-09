@@ -18,8 +18,8 @@ const NewsLetter = () => {
           </div>
         </div>
 
-        <h4 className="text-gray-400 text-lg mb-2">Join our community</h4>
-        <h2 className="text-white text-4xl md:text-5xl font-bold mb-6">
+        <h4 className="text-gray-400 font-satoshi text-lg mb-2">Join our community</h4>
+        <h2 className="text-white font-tilt text-4xl md:text-5xl font-bold mb-6">
           Subscribe to our{" "}
           <span className="relative">
             newsletter
@@ -38,7 +38,7 @@ const NewsLetter = () => {
           </span>
         </h2>
 
-        <p className="text-gray-400 max-w-2xl mx-auto mb-10 text-sm md:text-base leading-relaxed">
+        <p className="text-gray-400 font-satoshi max-w-2xl mx-auto mb-10 text-sm md:text-base leading-relaxed">
           Join Our Community Of Fitness Enthusiasts And Athletes! By Subscribing
           To Our Newsletter, You'll Receive Expert Training Tips, Nutrition
           Guides, Exclusive Discounts, And The Latest News.
@@ -54,7 +54,7 @@ const NewsLetter = () => {
             />
 
             {/* Subscribe Button */}
-            <button className="w-1/2 md:w-auto bg-white text-black font-bold px-8 py-4 md:py-3 rounded-full hover:bg-[#5FB539] hover:text-white transition-all duration-300 whitespace-nowrap shadow-lg md:shadow-none uppercase tracking-wider text-sm md:text-base">
+            <button className="w-1/2 md:w-auto font-satoshi bg-white text-black font-bold px-8 py-4 md:py-3 rounded-full hover:bg-[#5FB539] hover:text-white transition-all duration-300 whitespace-nowrap shadow-lg md:shadow-none uppercase tracking-wider text-sm md:text-base">
               SUBSCRIBE
             </button>
           </div>

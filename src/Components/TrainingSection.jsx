@@ -12,11 +12,11 @@ const TrainingSection = () => {
   return (
     <div className="p-4 lg:p-10 max-w-7xl mx-auto">
       <div className="ml-5 my-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-black/75">
+        <h1 className="text-3xl font-satoshi md:text-4xl font-bold text-black/75">
           Train Like a Champion
         </h1>
 
-        <p className="font-medium text-lg md:text-2xl mt-3">
+        <p className="font-medium font-satoshi text-lg md:text-2xl mt-3">
           Unleash Your Power with Expert Boxing Training
         </p>
       </div>
@@ -35,18 +35,18 @@ const TrainingSection = () => {
 
         
         <div className="lg:col-span-4 space-y-8 text-white">
-          <h2 className="text-xl font-bold mb-6">Training Focus Areas:</h2>
+          <h2 className="text-xl font-satoshi font-bold mb-6">Training Focus Areas:</h2>
 
           <div data-aos="fade-right" data-aos-delay="300">
-            <h3 className="font-semibold text-lg">Strength & Conditioning</h3>
-            <p className="text-gray-400 text-sm mt-1">
+            <h3 className="font-semibold font-satoshi text-lg">Strength & Conditioning</h3>
+            <p className="text-gray-400 font-satoshi text-sm mt-1">
               Develop knockout power with a mix of strength training and
               explosive movements.
             </p>
           </div>
 
           <div data-aos="fade-right" data-aos-delay="400">
-            <h3 className="font-semibold text-lg">Speed & Agility</h3>
+            <h3 className="font-semibold font-satoshi text-lg">Speed & Agility</h3>
             <p className="text-gray-400 text-sm mt-1">
               Sharpen your reflexes and footwork with dynamic drills that
               improve speed and coordination.
@@ -54,8 +54,8 @@ const TrainingSection = () => {
           </div>
 
           <div data-aos="fade-right" data-aos-delay="500">
-            <h3 className="font-semibold text-lg">Endurance Training</h3>
-            <p className="text-gray-400 text-sm mt-1">
+            <h3 className="font-semibold font-satoshi text-lg">Endurance Training</h3>
+            <p className="text-gray-400 font-satoshi text-sm mt-1">
               Boost your stamina with high-intensity circuits that keep you
               fighting strong till the final round.
             </p>
@@ -65,16 +65,16 @@ const TrainingSection = () => {
         
         <div className="lg:col-span-4 space-y-8 text-white flex flex-col justify-between">
           <div>
-            <h2 className="text-xl font-bold mb-6">Why Train With Us:</h2>
+            <h2 className="text-xl font-satoshi font-bold mb-6">Why Train With Us:</h2>
             <div data-aos="fade-left" data-aos-delay="300" className="mb-6">
-              <h3 className="font-semibold text-lg">Expert Coaches</h3>
-              <p className="text-gray-400 text-sm mt-1">
+              <h3 className="font-semibold font-satoshi text-lg">Expert Coaches</h3>
+              <p className="text-gray-400 font-satoshi text-sm mt-1">
                 Our experienced boxing trainers have worked with amateur and
                 professional athletes.
               </p>
             </div>
             <div data-aos="fade-left" data-aos-delay="400">
-              <h3 className="font-semibold text-lg">Flexible Programs</h3>
+              <h3 className="font-semibold font-satoshi text-lg">Flexible Programs</h3>
               <p className="text-gray-400 text-sm mt-1">
                 Whether you're a beginner or seasoned boxer, we offer flexible
                 programs that fit your schedule.

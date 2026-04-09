@@ -5,11 +5,11 @@ const Clients = () => {
   return (
     <div className="p-4 lg:p-10 max-w-7xl mx-auto">
       <div className="ml-10 mt-14">
-        <h1 className="text-3xl md:text-4xl font-bold text-black/75">
+        <h1 className="text-3xl font-satoshi md:text-4xl font-bold text-black/75">
           What Our Clients Are Saying
         </h1>
 
-        <p className="font-medium text-base md:text-xl mt-3">
+        <p className="font-medium font-satoshi text-base md:text-xl mt-3">
           Real Stories, Real Results — Hear From Our Athletes
         </p>
       </div>
@@ -26,10 +26,10 @@ const Clients = () => {
                 whileHover={{ y: -10 }}
                 className="bg-black rounded-[35px] p-8 shadow-xl relative overflow-hidden group"
               >
-                <h4 className="text-white text-xl font-bold mb-4">
+                <h4 className="text-white font-satoshi text-xl font-bold mb-4">
                   The Best Training Program!
                 </h4>
-                <p className="text-gray-400 text-sm leading-relaxed mb-8">
+                <p className="text-gray-400 font-satoshi text-sm leading-relaxed mb-8">
                   The boxing program helped me build confidence, strength, and
                   endurance. The coaches are supportive and push you to be your
                   best. Highly recommend for anyone serious about their fitness!
@@ -44,7 +44,7 @@ const Clients = () => {
                       />
                     </div>
                     <div>
-                      <h5 className="text-white font-bold text-sm">
+                      <h5 className="text-white font-satoshi font-bold text-sm">
                         Stive Meloni
                       </h5>
                       <p className="text-gray-500 text-xs">Cea Of Miko</p>
